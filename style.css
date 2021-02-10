@@ -3,7 +3,7 @@
 :root {
     --primary-dark: #20232A;
     --secondary-light: #F3F4F6;
-
+    --secondary-light-two: #D1D5DB;
 }
 
 * {
@@ -18,7 +18,8 @@ body {
     height: 100vh;
 }
 
-header {
+/* MAIN DOCUMENT HEADER */
+.title-header {
     color: var(--secondary-light);
     background-color: var(--primary-dark);
     padding: 1rem;
@@ -27,6 +28,30 @@ header {
     align-items: center;
 }
 
-header h1 {
+.title-header h1 {
     padding: 0rem 1rem;
+}
+
+/* SIDE NAVIGATION */
+#nav-bar {
+    padding: 1rem;
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    top: 5rem;
+    left: 0;
+    background-color: var(--secondary-light-two);
+}
+
+ul li {
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.nav-link:focus {
+    outline: none;
 }
