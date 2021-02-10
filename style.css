@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+
+:root {
+    --primary-dark: #20232A;
+    --secondary-light: #F3F4F6;
+
+}
 
 * {
     padding: 0;
@@ -7,4 +13,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    color: var(--primary-dark);
+    background-color: var(--secondary-light);
+    height: 100vh;
 }
