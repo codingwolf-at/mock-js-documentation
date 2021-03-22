@@ -51,6 +51,7 @@ hr {
     top: 0;
     z-index: 1;
     background-color: var(--secondary-light-two);
+    overflow-y: scroll;
 }
 
 #nav-bar header {
