@@ -42,7 +42,7 @@ hr {
 }
 
 /* SIDE NAVIGATION */
-#nav-bar {
+#navbar {
     padding: 1rem;
     height: 100%;
     width: 250px;
@@ -59,7 +59,7 @@ hr {
     background: transparent;  /* Optional: just make scrollbar invisible */
 }
 
-#nav-bar header {
+#navbar header {
     font-size: 2rem;
     margin-left: 2rem;
     margin-bottom: 0.5rem;
@@ -69,7 +69,7 @@ ul {
     margin-left: 0.5rem;
 }
 
-#nav-bar ul li {
+#navbar ul li {
     list-style: none;
     margin: 0.5rem 0rem 0.5rem 2rem;
 }
