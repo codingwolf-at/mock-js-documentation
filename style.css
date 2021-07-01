@@ -121,3 +121,9 @@ code {
 .main-section ul li {
     margin: 1rem 0rem;
 }
+
+@media (max-width: 790px) {
+    body {
+        font-size: 80%;
+    }
+}
