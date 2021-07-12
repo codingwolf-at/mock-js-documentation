@@ -1,6 +1,6 @@
 # Mock JavaScript Documentation
 
-[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/organization/repository)
+[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/codingwolf-at/mock-js-documentation)
 
 ![GIF](gif/js-mock.gif)
 
